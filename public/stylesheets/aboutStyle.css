@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: roboto !important;
+}   
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* ---------------------------------------coverdiv */
+
+#main #coverdiv{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#main #coverdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#main #coverdiv .contentdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #coverdiv .contentdiv .contentdiv-h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+   
+}
+
+#main #coverdiv .contentdiv .contentdiv-h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+/* -----------------------------------------------main-about-section */
+
+#main #main-about-section{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding: 80px 60px;
+    position: relative;
+
+}
+
+#main #main-about-section .main-about-section-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#main #main-about-section .main-about-section-left .main-about-section-left-h3{
+    color: #1475F7;
+    font-size: 22px;
+    font-weight: 800;    
+}
+
+#main #main-about-section .main-about-section-left .main-about-section-left-h1{
+    font-size: 44px;
+    font-weight: 800;  
+    color: black;
+}
+#main #main-about-section .main-about-section-left .main-about-section-left-p{
+    font-size:16px;
+    color: grey;
+}
+#main #main-about-section .main-about-section-left .main-about-section-left-h2{
+    color: #1475F7;
+    font-size: 22px;
+    font-weight: 800; 
+}
+
+#main #main-about-section .main-about-section-left .main-about-section-left-checkdiv{
+    width: 80%;
+    height: 20%;
+    background-color: #1475F7;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 16px;
+
+}
+
+#main #main-about-section .main-about-section-left .main-about-section-left-checkdiv .main-about-section-left-checkdiv-circle{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+#main #main-about-section .main-about-section-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #main-about-section .main-about-section-right .main-about-section-right-imagediv{
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+#main #main-about-section .main-about-section-right .main-about-section-right-imagediv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#main #main-about-section .main-about-section-right .main-about-section-right-circlediv{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 40px solid #1475F7;
+    position:absolute;
+    z-index: -1;
+    right: 5%;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: top;
+    animation: Circleloop 2s infinite alternate;
+}
+
+#main #main-about-section .main-about-section-right .main-about-section-right-imagediv .main-about-section-right-imagediv-option{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color: white;
+    height: 8vmax;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    padding: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/* ---------------------------------main-about-display-section */
+
+#main #main-about-display-section{
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main #main-about-display-section .main-about-display-section-contentdiv{
+    width: 100%;
+    height: 100%;
+    background-image:url(../images/g6.avif) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main #main-about-display-section .main-about-display-section-contentdiv .main-about-display-section-contentdiv-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;    
+}
+
+#main #main-about-display-section .main-about-display-section-contentdiv .main-about-display-section-contentdiv-lower{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+} 
+
+
+/* -------------------------------------------------Testimonials about page section */
+
+#main #main-about-testimonials-section{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+}
+
+#main #main-about-testimonials-section .main-about-testimonials-section-left{
+    width: 50%;
+    height: 100%;
+    padding: 180px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-h3{
+    font-size: 22px;
+    color: #1475F7;
+    font-weight: 800;
+}
+
+#main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-h1{
+    font-size: 40px;
+    color: black;
+}
+
+#main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-h4{
+    font-size: 22px;
+    color: #8D43F2;
+    font-weight: 600;
+}
+
+
+#main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-p{
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+}
+
+#main #main-about-testimonials-section .main-about-testimonials-section-right{
+    width: 50%;
+    height: 100%;
+    background-image:url(../images/g8.avif) ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+@keyframes Circleloop{
+    form{
+        transform: translateY(0%)
+       
+    }
+    to{
+        transform: translateY(5%)
+    }
+}
+
+
+@media (max-width:550px){
+
+    #main #main-about-section {
+        flex-direction: column;
+        height: 200%;
+        padding: 20px 60px ;
+    }
+    #main #main-about-section .main-about-section-left {
+        width: 100%;
+        height: 65%;
+    }
+    #main #main-about-section .main-about-section-left .main-about-section-left-h3 {
+        font-size: 16px;
+    }
+    #main #main-about-section .main-about-section-left .main-about-section-left-h1{
+        font-size: 25px;
+    }
+    #main #main-about-section .main-about-section-left .main-about-section-left-p{
+        font-size: 12px;
+    }
+    #main #main-about-section .main-about-section-left .main-about-section-left-checkdiv {
+        width: 100%;
+        height: 10%;
+        font-size: 11px;
+        padding: 10px;
+    }
+    #main #main-about-section .main-about-section-left .main-about-section-left-checkdiv .main-about-section-left-checkdiv-circle {
+        width: 45px;
+        height: 45px;
+    }
+    #main #main-about-section .main-about-section-right{
+        width: 100%;
+    }
+    #main #main-about-section .main-about-section-right .main-about-section-right-imagediv{
+        width: 100%;
+    }
+    #main #main-about-section .main-about-section-right .main-about-section-right-imagediv .main-about-section-right-imagediv-option {
+        top: 75%;
+        height: 15vmax;
+        font-size: 11px;
+        padding: 7px;
+    }
+
+    /* ------------------------------display section */
+
+    #main #main-about-display-section{
+        height: 100%;
+    }
+    #main #main-about-display-section .main-about-display-section-contentdiv{
+        flex-direction: column;
+    }
+    #main #main-about-display-section .main-about-display-section-contentdiv .main-about-display-section-contentdiv-upper{
+        font-size: 14px;
+    }
+    #main #main-about-display-section .main-about-display-section-contentdiv .main-about-display-section-contentdiv-lower {
+        font-size: 12px;
+    }
+
+    /* ---------------------------------------------#main #main-about-testimonials-section */
+
+    #main #main-about-testimonials-section{
+        height: 100%;
+        flex-direction: column;
+    }
+    #main #main-about-testimonials-section .main-about-testimonials-section-left{
+        width: 100%;
+        padding: 0px 60px ;
+    }
+    #main #main-about-testimonials-section .main-about-testimonials-section-right{
+        width: 100%;
+    }
+    #main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-h3 {
+        font-size: 15px;
+    }
+    #main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-h1 {
+        font-size: 17px;
+    }
+    #main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-h4 {
+        font-size: 15px;
+    }
+    #main #main-about-testimonials-section .main-about-testimonials-section-left .main-about-testimonials-section-left-p {
+        font-size: 11px;
+    }
+
+
+}

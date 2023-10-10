@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: roboto !important;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* ---------------------------------- coverdiv*/
+
+
+#main #coverdiv{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#main #coverdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#main #coverdiv .contentdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #coverdiv .contentdiv .contentdiv-h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+   
+}
+
+#main #coverdiv .contentdiv .contentdiv-h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+
+/* -----------------------------main-service-page */
+
+#main #main-services-page{
+    width: 100%;
+    height: 170%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px ;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+#main #main-services-page .main-services-page-h3{
+    font-size: 22px;
+    color: #1475F7;
+}
+
+#main #main-services-page .main-services-page-h1{
+    font-size: 40px;
+    color: black;
+}
+
+
+#main #main-services-page .main-services-page-contentbox{
+    width:95%;
+    height:70%;
+    /* background-color: #1475F7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection{
+    width: 100%;
+    height: 48%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection .main-services-page-contentbox-uppersection-c1{
+    width: 24%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection .main-services-page-contentbox-uppersection-c1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection .main-services-page-contentbox-uppersection-c1 .main-services-page-contentbox-uppersection-c1-l1{
+    width: 120%;
+    height: 50%;
+    position: absolute;
+    left: -10%;
+    bottom: -20%;
+    transform: skewY(-8deg);
+    background-color: #006af59d;
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection .main-services-page-contentbox-uppersection-c1 .main-services-page-contentbox-uppersection-c1-l1-circle1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0%);
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid #1475F7;
+    font-size: 40px;
+    color: #1475F7;
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection .main-services-page-contentbox-uppersection-c1 .main-services-page-contentbox-uppersection-c1-l1-h3{
+    font-size: 22px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+    transform: skewY(8deg);
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+}
+
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection .main-services-page-contentbox-lowersection-c1{
+    width: 24%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection .main-services-page-contentbox-lowersection-c1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection .main-services-page-contentbox-lowersection-c1 .main-services-page-contentbox-lowersection-c1-l1{
+    width: 120%;
+    height: 50%;
+    position: absolute;
+    left: -10%;
+    bottom: -20%;
+    transform: skewY(-8deg);
+    background-color: #006af59d;
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection .main-services-page-contentbox-lowersection-c1 .main-services-page-contentbox-lowersection-c1-l1-circle1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0%);
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid #1475F7;
+    font-size: 40px;
+    color: #1475F7;
+}
+
+#main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection .main-services-page-contentbox-lowersection-c1 .main-services-page-contentbox-lowersection-c1-l1-h3{
+    font-size: 22px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+    transform: skewY(8deg);
+}
+
+
+#main  #main-services-preview-page{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-left{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/g8.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+#main  #main-services-preview-page .main-services-preview-page-left .main-services-preview-page-left-contentdiv{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main  #main-services-preview-page .main-services-preview-page-left .main-services-preview-page-left-contentdiv .main-services-preview-page-left-contentdiv-h3{
+    font-size: 20px;
+    color:#1475F7 ;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-left .main-services-preview-page-left-contentdiv .main-services-preview-page-left-contentdiv-h1{
+    font-size: 25px;
+    color: white;
+}
+
+
+#main  #main-services-preview-page .main-services-preview-page-left .main-services-preview-page-left-contentdiv .main-services-preview-page-left-contentdiv-p{
+    color: white;
+    font-size: 15px;
+
+}
+
+#main  #main-services-preview-page .main-services-preview-page-left .main-services-preview-page-left-contentdiv .main-services-preview-page-left-contentdiv-circle{
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1475F7;
+    border-radius: 50%;
+    font-size: 25px;
+    
+}
+
+
+
+
+
+
+
+#main  #main-services-preview-page .main-services-preview-page-right{
+    width: 50%;
+    height: 100%;
+    background-color: #EDF1F7;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1475F7;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-h1{
+    font-size: 44px;
+    font-weight: 600;
+    color: black;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-p{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections{
+    display: flex;
+    width: 100%;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-left{
+    width: 50%;
+    padding: 10px;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-left .main-services-preview-page-right-sections-left-circle{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #1475F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1475F7;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-left .main-services-preview-page-right-sections-left-h3{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-left .main-services-preview-page-right-sections-left-p{
+    color: grey;
+    font-size: 16px;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-right{
+    width: 50%;
+    padding: 10px;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-right .main-services-preview-page-right-sections-right-circle{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #1475F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1475F7;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-right .main-services-preview-page-right-sections-right-h3{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-right .main-services-preview-page-right-sections-right-p{
+    color: grey;
+    font-size: 16px;
+}
+
+#main  #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-button{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #1475F7;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+
+@media (max-width:550px){
+
+    #main #main-services-page .main-services-page-h1{
+        font-size: 19px;
+    }
+    #main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection{
+        flex-direction: column;
+        height: 130%;
+    }
+    #main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-uppersection .main-services-page-contentbox-uppersection-c1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+ 
+    #main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection{
+        flex-direction: column;
+        height: 130%;
+    }
+    #main #main-services-page .main-services-page-contentbox .main-services-page-contentbox-lowersection .main-services-page-contentbox-lowersection-c1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #main #main-services-page .main-services-page-contentbox{
+        margin-top: 40px;
+        height: 100%;
+        width: 100%;
+    }
+
+ /* -------------------service */
+ #main #main-services-preview-page .main-services-preview-page-left{
+    width: 100%;
+    height: 50%;
+ }
+
+ #main #main-services-preview-page .main-services-preview-page-right{
+    width: 100%;
+    padding: 35px;
+    height: 50%;
+ }
+ 
+ #main #main-services-preview-page{
+    flex-direction: column;
+    display: block;
+    height: 200%;
+    margin-top: 1800px;
+ }
+ #main #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-h1 {
+    font-size: 25px;
+ }
+ #main #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-p{
+    font-size: 15px;
+ }
+ #main #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-left .main-services-preview-page-right-sections-left-p{
+    font-size: 11px;
+ }
+ #main #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-right .main-services-preview-page-right-sections-right-p{
+    font-size: 11px;
+ }
+ #main #main-services-preview-page .main-services-preview-page-right .main-services-preview-page-right-sections .main-services-preview-page-right-sections-right .main-services-preview-page-right-sections-right-h3{
+    font-size: 15px;
+ }
+
+
+
+
+
+
+}

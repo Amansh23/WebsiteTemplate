@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/contactStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <%- include('firstnav'); %>
+        <%- include('navbar'); %>
+        <div id="coverdiv">
+            <img src="../images/g5.avif" alt="">
+            <div class="contentdiv">
+                <h1 class="contentdiv-h1">Contact</h1>
+                <h3 class="contentdiv-h3">
+                    <span style="margin-right: 20px;">Home</span>
+                    <span style="letter-spacing: -10px; color: #8D43F2;">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <span style="margin-left: 20px;">Contact</span>
+                </h3>
+            </div>
+        </div>
+        <div id="main-contact-display">
+            <h3 class="main-contact-display-h3">Contact Us <span style="margin-left: 20px;">~</span></h3>
+            <h1 class="main-contact-display-h1">Grow Your Business With <span style="color: #1475F2;">Our Expertise</span></h1>
+            <p class="main-contact-display-p">
+                We understand the importance of approaching each work integrally and believe in the power of simple.
+            </p>
+        </div>
+        <div id="main-contact-form-page">
+            <div class="main-contact-form-page-left">
+                <div class="main-contact-form-page-left-section">
+                    <span><i class="ri-map-pin-fill"></i></span>
+                    <div class="main-contact-form-page-left-section-right">
+                        <h3>Office Address</h3>
+                        <h5 style="font-weight: 600;">1/6, Behind Vijay Nagar Police Station, Vijay Nagar, Indore, M.P</h5>
+                    </div>
+                </div>
+                <div class="main-contact-form-page-left-section">
+                    <span><i class="ri-customer-service-fill"></i></span>
+                    <div class="main-contact-form-page-left-section-right">
+                        <h3>Telephone Number</h3>
+                        <h5 style="font-weight: 600;">+91 958 932 9268</h5>
+                    </div>
+                </div>
+                <div class="main-contact-form-page-left-section">
+                    <span><i class="ri-mail-send-fill"></i></span>
+                    <div class="main-contact-form-page-left-section-right">
+                        <h3>Mail Address</h3>
+                        <h5 style="font-weight: 600;">contact@digiroit.com</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="main-contact-form-page-right">
+               <form action="" class="main-contact-form-page-right-form">
+                <div class="main-contact-form-page-right-inputdiv" >
+                    <div class="main-contact-form-page-right-inputdiv-left">
+                        <h3 class="main-contact-form-page-right-inputdiv-left-h3">Name <span style="color: #8D43F2;"> *</span></h3>
+                        <input type="text" 
+                               placeholder="Name"
+                               name="Name"
+                               class="main-contact-form-page-right-inputdiv-left-input"
+                        >
+                    </div>
+                    <div class="main-contact-form-page-right-inputdiv-right">
+                        <h3 class="main-contact-form-page-right-inputdiv-right-h3">Email <span style="color: #8D43F2;"> *</span></h3>
+                        <input type="text" 
+                               placeholder="Email"
+                               name="Email"
+                               class="main-contact-form-page-right-inputdiv-right-input"
+                        >
+                    </div>
+            </div>
+            <div class="main-contact-form-page-right-inputdiv" >
+                <div class="main-contact-form-page-right-inputdiv-left">
+                    <h3 class="main-contact-form-page-right-inputdiv-left-h3">Phone <span style="color: #8D43F2;"> *</span></h3>
+                    <input type="text" 
+                           placeholder="Phone"
+                           name="Phone"
+                           class="main-contact-form-page-right-inputdiv-left-input"
+                    >
+                </div>
+                <div class="main-contact-form-page-right-inputdiv-right">
+                    <h3 class="main-contact-form-page-right-inputdiv-right-h3">Services <span style="color: #8D43F2;"> *</span></h3>
+                    <input type="text" 
+                           placeholder="Services"
+                           name="Services"
+                           class="main-contact-form-page-right-inputdiv-right-input"
+                    >
+                </div>
+            </div>
+            <div class="main-contact-form-page-right-textareadiv">
+                <h3>Your Message</h3>
+                <input    name="Message"
+                          class="main-contact-form-page-right-textareadiv-input" 
+                          placeholder="Your Message"        
+                 >
+            </div>
+            <button type="submit" class="main-contact-form-page-btn">Submit</button>
+               </form>
+            </div>
+        </div>
+        <%- include('footer'); %>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/blogStyle.css">
+</head>
+<body>
+    <div id="main">
+        <%- include('firstnav'); %>
+        <%- include('navbar'); %>
+        <div id="coverdiv">
+            <img src="../images/g5.avif" alt="">
+            <div class="contentdiv">
+                <h1 class="contentdiv-h1">Blog</h1>
+                <h3 class="contentdiv-h3">
+                    <span style="margin-right: 20px;">Home</span>
+                    <span style="letter-spacing: -10px; color: #8D43F2;">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                    <span style="margin-left: 20px;">Blog</span>
+                </h3>
+            </div>
+        </div>
+        <div id="main-Blog-page">
+            <div class="main-Blog-page-contentdiv">
+                <img src="../images/g3.avif" alt="">
+                <div class="main-Blog-page-contentdiv-contentbox">
+                    <div class="main-Blog-page-contentdiv-contentbox-upper">
+                        <h3><i class="ri-calendar-2-line"></i> 23-09-2023</h3>
+                        <h3><i class="ri-user-fill"></i> Aman Sharma</h3>
+                    </div>
+                    <h1 class="main-Blog-page-contentdiv-contentbox-h1">Regional Manager & limited time management</h1>
+                </div>
+            </div>
+            <div class="main-Blog-page-contentdiv">
+                <img src="../images/g1.avif" alt="">
+                <div class="main-Blog-page-contentdiv-contentbox">
+                    <div class="main-Blog-page-contentdiv-contentbox-upper">
+                        <h3><i class="ri-calendar-2-line"></i> 23-09-2023</h3>
+                        <h3><i class="ri-user-fill"></i> Aman Sharma</h3>
+                    </div>
+                    <h1 class="main-Blog-page-contentdiv-contentbox-h1">Regional Manager & limited time management</h1>
+                </div>
+            </div>
+        </div>
+        <%- include('footer'); %>
+    </div>
+</body>
+</html>
